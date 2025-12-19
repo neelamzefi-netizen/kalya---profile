@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh 20 CSS Dasar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2; /* (2) Warna latar belakang halaman */
+      margin: 20px;
+    }
+
+    .kotak {
+      background-color: white; /* (2) */
+      color: #333; /* (1) Warna teks */
+      font-size: 18px; /* (3) Ukuran huruf */
+      font-weight: bold; /* (5) Ketebalan huruf */
+      text-align: center; /* (6) Rata tengah */
+      text-decoration: none; /* (7) Menghapus dekorasi teks */
+      line-height: 1.5; /* (8) Jarak antar baris */
+      letter-spacing: 1px; /* (9) Jarak antar huruf */
+      word-spacing: 5px; /* (10) Jarak antar kata */
+      margin: 20px; /* (11) Jarak luar */
+      padding: 15px; /* (12) Jarak dalam */
+      border: 2px solid #4CAF50; /* (13) Garis tepi */
+      width: 300px; /* (14) Lebar elemen */
+      height: auto; /* (15) Tinggi elemen */
+      display: block; /* (16) Ditampilkan sebagai blok */
+      position: relative; /* (17) Posisi relatif */
+      overflow: hidden; /* (19) Menyembunyikan konten berlebih */
+      cursor: pointer; /* (20) Ubah kursor jadi tangan */
+      border-radius: 10px; /* Tambahan: sudut melengkung */
+    }
+
+    .kotak:hover {
+      background-color: #d4edda; /* Efek hover */
+    }
+
+    .gambar {
+      float: left; /* (18) Membuat gambar melayang kiri */
+      margin-right: 10px;
+      border: 3px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://via.placeholder.com/100" class="gambar" alt="Contoh gambar">
+  <div class="kotak">
+    Ini adalah contoh <br> penggunaan 20 properti CSS dasar.
+  </div>
+
+</body>
+</html>
